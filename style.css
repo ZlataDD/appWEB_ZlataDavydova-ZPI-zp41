@@ -15,22 +15,57 @@ a {
 }
 
 .header {
+    display: flex;
 height: 50px;
 line-height: 50px;
 background-color: black;
 
  }
 
+
+ .logo-image {
+    display: flex;
+  
+}  
+
+ .logo-link {
+    display: flex;
+    height: 100%;
+    align-items: center;
+  }
+
 .navigation-list li {
+    padding: 0 24px;
     display: inline-block;
     color:white;
     font-weight: bold;
     font-size: 14px;
  }
 
- .navigation-list .last-item { 
-    font-size: 38px;
- }
 
-    
+ .navigation-list li:last-of-type a  {
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+    color: white;
+    background-color: #dd3d53; 
+    border-radius: 3px;
+    transition: all .25s ease;
+ }
+ 
+ .navigation-list li:last-of-type a:hover {
+  background-color: #c9233a;
+
+  
+ 
+   
+
+ }
+   
+ 
+
+
+
+ #
 { }
