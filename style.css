@@ -1,3 +1,36 @@
+body { 
+margin: 0; 
+font-family: "Open Sans", sans-serif;
+
+}
+
 ul {
     list-style-type: none;
+    margin: 0;
 }
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.header {
+height: 50px;
+line-height: 50px;
+background-color: black;
+
+ }
+
+.navigation-list li {
+    display: inline-block;
+    color:white;
+    font-weight: bold;
+    font-size: 14px;
+ }
+
+ .navigation-list .last-item { 
+    font-size: 38px;
+ }
+
+    
+{ }
