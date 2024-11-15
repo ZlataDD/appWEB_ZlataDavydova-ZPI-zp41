@@ -16,22 +16,21 @@ a {
 
 .header {
     display: flex;
-height: 50px;
-line-height: 50px;
-background-color: black;
-
+    justify-content: space-between;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 15
+    ;
+    background-color: black;
  }
-
-
- .logo-image {
-    display: flex;
-  
-}  
+ 
 
  .logo-link {
     display: flex;
     height: 100%;
     align-items: center;
+    padding-left:10%;
+ 
   }
 
 .navigation-list li {
@@ -42,12 +41,38 @@ background-color: black;
     font-size: 14px;
  }
 
+ .navigation-underline {
+    position: relative;
+    transition: all .25s ease;
+
+  }
+
+ .navigation-underline::after{
+     content: "";
+     background: #b88d90ef;
+     height: 2px;
+     width: 100%;
+     position: absolute;
+     bottom: -8px;
+     left: 0;
+     transform: scaleX(0);
+     transition: all .25s ease;
+ }
+
+ .navigation-underline:hover{
+    color: #ce9a9a;
+
+}
+
+ .navigation-underline:hover::after {
+     transform: scaleX(1);
+}
 
  .navigation-list li:last-of-type a  {
     display: block;
     height: 30px;
     line-height: 30px;
-    padding: 0 10px;
+    padding: 0 15px;
     color: white;
     background-color: #dd3d53; 
     border-radius: 3px;
@@ -55,7 +80,7 @@ background-color: black;
  }
  
  .navigation-list li:last-of-type a:hover {
-  background-color: #c9233a;
+    background-color: #c9233a;
 
   
  
