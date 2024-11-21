@@ -16,15 +16,14 @@ a {
 
 .header {
     display: flex;
-    justify-content: space-between;
-    height: 50px;
-    line-height: 50px;
-    padding: 0 15
-    ;
+    justify-content space-between;
+    height 50px;
+    line-height 50px;
+    padding 0 15;
     background-color: black;
  }
  
-
+ 
  .logo-link {
     display: flex;
     height: 100%;
@@ -81,10 +80,6 @@ a {
  
  .navigation-list li:last-of-type a:hover {
     background-color: #c9233a;
-
-  
- 
-   
 
  }
    
