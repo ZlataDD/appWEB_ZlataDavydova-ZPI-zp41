@@ -14,31 +14,39 @@ a {
     color: inherit;
 }
 
-.header {
 
+.header {
+    justify-content: space-between;
     background-color: black;
     display: flex;
-    justify-content space-between;
-    height 50px;
-    line-height 50px;
     padding-block: 10px;
+    line-height: 10px;
+    align-items: center;
+
 }
  
+.menu-btn {
+    height: 40px;
+    background-color: black;
+}
+
 
  .logo-link {
     display: flex;
-    height: 100%;
-    align-items: unset;
-    padding-left:10%;
+    height: 30px;
+    align-items: center;
+    padding-left: 5px;
  
   }
 
 .navigation-list li {
-    padding: 0 24px;
+    padding: 0 5px;
     display: inline-block;
     color:white;
     font-weight: bold;
     font-size: 14px;
+    margin-right: 5px;
+    margin-left: 5px;
  }
 
 
@@ -84,7 +92,9 @@ a {
     background-color: #c9233a;
 
  }
-   
- 
+  
+ .background-image {
+    display: block;
+}
 
 
