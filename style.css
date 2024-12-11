@@ -94,4 +94,69 @@ a {
  }
 
 
- 
+.images {
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+
+}
+
+ .background-img {
+   opacity: 0.8;
+}
+
+ .overlay-image1  {
+        position: absolute;
+        top: 200px;
+        left: 40px;
+        width: 80%;
+        height: auto;
+        opacity: 3;
+ }
+ .overlay-image1:hover  {
+    transform: scale(1.2);
+    transition: all 1s ease;
+}
+
+ .overlay-image2 {
+    position: absolute;
+    top: 200px;;
+    left: 340px;
+    width: 80%;
+    height: auto;
+    opacity: 3;
+}
+.overlay-image2:hover  {
+    transform: scale(1.2);
+    transition: all 1s ease;
+}
+
+.overlay-image3  {
+    position: absolute;
+    top: 200px;
+    left: 640px;
+    width: 80%;
+    height: auto;
+    opacity: 3;
+
+}
+
+.overlay-image3:hover  {
+    transform: scale(1.2);
+    transition: all 1s ease;
+}
+.overlay-image4  {
+    position: absolute;
+    top: 200px;
+    left: 990px;
+    width: 80%;
+    height: auto;
+    opacity: 3;
+
+}
+
+.overlay-image4:hover  {
+    transform: scale(1.2);
+    transition: all 1s ease;
+    
+}
